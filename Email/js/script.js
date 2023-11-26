@@ -17,8 +17,6 @@ buttonValue.addEventListener("click", function(){
         if (element === emailUser){
             invitato = true;
             console.log("La persona è presente nella lista");
-        } else {
-            console.log("La persona NON è presente nella lista");
         }
     }
     
@@ -26,6 +24,7 @@ buttonValue.addEventListener("click", function(){
     if (invitato === true){
         console.log("Puoi entrare alla festa!");
     } else {
+        console.log("La persona NON è presente nella lista");
         console.log("Non puoi entrare alla festa!");
     }
 });
